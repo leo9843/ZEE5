@@ -1,0 +1,19 @@
+{
+    "name": "zee5",
+    "version": "1.0.0",
+    "description": "The Online ZEE5 Player and Downloader with Premium and Free Content With All Facality ",
+    "main": "worker.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/avipatilpro/ZEE5.git"
+    },
+    "keywords": [
+        "zee5"
+    ],
+    "author": "Avi Patil",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/avipatilpro/ZEE5/issues"
+    },
+    "homepage": https://github.com/avipatilpro/ZEE5#readme"
+}
