@@ -32,7 +32,7 @@ async function handleRequest(request) {
                     "Content-Type": "text/html",
                     "Cache-Control": "no-cache, no-store, must-revalidate",
                     "Access-Control-Allow-Origin": "*",
-                    "Made-By": "https://github.com/cachecleanerjeet"
+                    "Made-By": "https://github.com/avipatilpro/ZEE5/"
                 })
             })
         } else {
@@ -47,7 +47,7 @@ async function handleRequest(request) {
                     "Content-Type": "text/html",
                     "Cache-Control": "no-cache, no-store, must-revalidate",
                     "Access-Control-Allow-Origin": "*",
-                    "Made-By": "https://github.com/cachecleanerjeet"
+                    "Made-By": "https://github.com/avipatilpro/ZEE5/"
                 })
             })
         }
