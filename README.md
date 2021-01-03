@@ -20,7 +20,8 @@
 ‣ Copy The URL From URL Box Like below <br><br>
    <code>https://www.zee5.com/zee5originals/details/lalbazaar/0-6-2177/ep-1-sleepless-in-kolkata/0-1-manual_6a651ie4f1f0</code> <br><br>
 ‣ Here From Above Link Copy Video ID  --> <code> 0-1-manual_6a651ie4f1f0</code> <br><br>
-‣ Paste Video ID After <code>https://z5.aviflix.workers.dev/0-1-manual_6a651ie4f1f0</code> <br><br>
+‣ Paste URL After This --> <code>https://z5.movhdapp.ml?url=YOUR_ID_HERE</code><br><br>   
+‣ Paste Video ID After <code>https://z5.movhdapp.ml/0-1-manual_6a651ie4f1f0</code> <br><br>
 ‣ Run This URL and Play And Enjoy !!  
 
 </h4><br>
@@ -32,7 +33,7 @@
 
 <h4>
 ‣ Copy URL From ZEE5 👇 <br><br>
-‣ Paste URL After This --> <code>https://z5.aviflix.workers.dev?url=YOUR_URL_HERE</code><br><br>
+‣ Paste URL After This --> <code>https://z5.movhdapp.ml?url=YOUR_URL_HERE</code><br><br>
 ‣ RUN Final URL and Enjoy !!  <br>
 
 </h4>
@@ -43,4 +44,4 @@
 
 <h2> Where To Host : </h2>
 
-<h5 align="center"> Copy The worker.js code and Host on CloudFlare Workers , Vercel , repl.it or heroku as your wish <br> or Your Hosting Otherwise Use https://example.com/
+<h5 align="center"> Copy The worker.js code and Host on CloudFlare Workers , Vercel , repl.it or heroku as your wish <br> or Your Hosting Otherwise Use https://z5.movhdapp.ml/
