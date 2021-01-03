@@ -41,6 +41,6 @@
 
 
 
-<h4> Where To Host : </h4>
+<h2> Where To Host : </h2>
 
 <h5 align="center"> Copy The worker.js code and Host on CloudFlare Workers , Vercel , repl.it or heroku as your wish <br> or Your Hosting Otherwise Use https://example.com/
