@@ -12,8 +12,8 @@ async function handleRequest(request) {
     <html>
 <head>
 <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="description" content="It is a Zee5 Online premium streamer with all features">
     <meta name="author" content="Avishkar Patil">
     <meta name="copyright" content="This Created by Avishkar Patil">
@@ -21,16 +21,35 @@ async function handleRequest(request) {
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="https://chatecrew.live/swarup/img/favicon.png">
 
-	<title>Avi Patil | ZEE5 Online Player and Downloader !!</title>
-	<link rel="stylesheet" href="https://chatecrew.live/AJ/style.css">
+  <title>Avi Patil | ZEE5 Online Player and Downloader !!</title>
+  <link rel="stylesheet" href="https://avipatilpro.github.io/host/z5style.css">
+  <link rel="stylesheet" href="https://avipatilpro.github.io/host/zstyle.css">
 
 <style>
 body{ background-color:#202020;}
 </style>
+
 </head>
 <body>
   <h1 style="color:orange; text-align:center;">ZEE5 HLS Streamer </h1>
-  <p style="color:blue; text-align:center;font-family: 'Corben', cursive;">Use This Pattern -->  <br><br><code style="color:white;">z5.movhdapp.ml/ZEE5_VIDEO_ID</code><br><br>OR<br><br><code style="color:white;">z5.movhdapp.ml/?url=ZEE5_VIDEO_URL</code></p>
+  
+<br><br><br>
+
+  <div><form method="get"  action="https://z5.movhdapp.ml" _lpchecked="1">
+  <center>
+ <div class="bar">
+<input type="search" class="searchbar" name="url" value="" placeholder="Enter ZEE5 URL or VIDEO ID" autocomplete="off">
+<a href="https://zee5.com/"> <img class="zee5" src="https://www.zee5.com/images/ZEE5_logo.png" title="Go To ZEE5 Site"></a>
+</div>
+
+<button  class="button" type="submit" value="">
+Stream
+</button>
+<br><br><br><br>
+<p style="color:blue; text-align:center;font-family: 'Corben', cursive;">Use This Pattern -->  <br><code style="color:white;">z5.movhdapp.ml/ZEE5_VIDEO_ID</code><br><code style="color:white;">z5.movhdapp.ml/?url=ZEE5_VIDEO_URL</code></p>
+
+
+
 <footer class="footer">
             <div class="container">
                 <span class="copyright"><a style="text-decoration: none; color: #9C9AB3;" href="https://avipatilweb.me/">© 2021 Avishkar Patil</a></span>
@@ -107,22 +126,22 @@ async function template(title, thumb, hls) {
     return `<html>
 
 <head>
-	<title>${title} | Avishkar Patil</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <title>${title} | Avishkar Patil</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <link rel="shortcut icon" type="image/x-icon" href="https://telegra.ph/file/22da4d29204c748a526a4.png">
-	<link rel='stylesheet' href='https://cdn.plyr.io/3.6.2/plyr.css'>
-	<link href="https://fonts.googleapis.com/css?family=Poppins|Quattrocento+Sans" rel="stylesheet"/>
-	<script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
+  <link rel='stylesheet' href='https://cdn.plyr.io/3.6.2/plyr.css'>
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Quattrocento+Sans" rel="stylesheet"/>
+  <script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
 </head>
 <style>
 html {
-	font-family: Poppins;
-	background: #000;
-	margin: 0;
-	padding: 0
+  font-family: Poppins;
+  background: #000;
+  margin: 0;
+  padding: 0
 }
 
 .loading {
@@ -214,7 +233,7 @@ html {
 </style>
 
 <body>
-	<div id="loading" class="loading">
+  <div id="loading" class="loading">
 <div class="loading-text">
     <span class="loading-text-words">L</span>
     <span class="loading-text-words">O</span>
@@ -226,42 +245,42 @@ html {
 </div>
 </div>
 
-	<video controls crossorigin poster="${thumb}" playsinline>
-		<source type="application/x-mpegURL" src="${hls}"> </video>
+  <video controls crossorigin poster="${thumb}" playsinline>
+    <source type="application/x-mpegURL" src="${hls}"> </video>
 </body>
 <script>
-	setTimeout(videovisible, 3000)
+  setTimeout(videovisible, 3000)
 
 function videovisible() {
     document.getElementById('loading').style.display = 'none'
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-	const e = document.querySelector("video"),
-		n = e.getElementsByTagName("source")[0].src,
-		o = {};
-	if(Hls.isSupported()) {
-		var config = {
-			maxMaxBufferLength: 100,
-		};
-		const t = new Hls(config);
-		t.loadSource(n), t.on(Hls.Events.MANIFEST_PARSED, function(n, l) {
-			const s = t.levels.map(e => e.height);
-			o.quality = {
-				default: s[0],
-				options: s,
-				forced: !0,
-				onChange: e => (function(e) {
-					window.hls.levels.forEach((n, o) => {
-						n.height === e && (window.hls.currentLevel = o)
-					})
-				})(e)
-			};
-			new Plyr(e, o)
-		}), t.attachMedia(e), window.hls = t
-	} else {
-		new Plyr(e, o)
-	}
+  const e = document.querySelector("video"),
+    n = e.getElementsByTagName("source")[0].src,
+    o = {};
+  if(Hls.isSupported()) {
+    var config = {
+      maxMaxBufferLength: 100,
+    };
+    const t = new Hls(config);
+    t.loadSource(n), t.on(Hls.Events.MANIFEST_PARSED, function(n, l) {
+      const s = t.levels.map(e => e.height);
+      o.quality = {
+        default: s[0],
+        options: s,
+        forced: !0,
+        onChange: e => (function(e) {
+          window.hls.levels.forEach((n, o) => {
+            n.height === e && (window.hls.currentLevel = o)
+          })
+        })(e)
+      };
+      new Plyr(e, o)
+    }), t.attachMedia(e), window.hls = t
+  } else {
+    new Plyr(e, o)
+  }
 });
 </script>
 
