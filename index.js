@@ -24,6 +24,8 @@ async function handleRequest(request) {
     <link rel="shortcut icon" type="image/x-icon" href="https://chatecrew.live/swarup/img/favicon.png">
 
   <title>Avi Patil | ZEE5 Online Player and Downloader !!</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://avipatilpro.github.io/host/z5style.css">
   <link rel="stylesheet" href="https://avipatilpro.github.io/host/zstyle.css">
 
@@ -36,7 +38,7 @@ body{ background-color:#202020;}
 
   <h1 style="color:orange; text-align:center; cursor: pointer;"><a href="https://z5.movhdapp.ml/">ZEE5 HLS Streamer </a></h1>
   
-<br><br><h3 style="text-align: center; color: #FFB200; font-family: 'Mali', cursive; font-size: 17px;">👇 Enter Your ZEE5 URL or VIDEO ID Below 👇 <br>And Click On STREAM</h3><br><br><br>
+<br><br><h3 style="text-align: center; color: #FFB200; font-family: 'Balsamiq Sans', cursive; font-size: 17px;">👇 Enter Your ZEE5 URL or VIDEO ID Below 👇 <br>And Click On STREAM</h3><br><br><br>
 
   <div><form method="get"  action="https://z5.movhdapp.ml" _lpchecked="1">
   <center>
@@ -104,7 +106,7 @@ Stream
   <link rel="stylesheet" href="https://avipatilpro.github.io/host/z5style.css">
   <link rel="stylesheet" href="https://avipatilpro.github.io/host/zstyle.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap" rel="stylesheet">
 
 <style>
 body{ background-color:#202020;}
@@ -190,7 +192,7 @@ async function template(title, thumb, hls) {
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <link rel="shortcut icon" type="image/x-icon" href="https://telegra.ph/file/22da4d29204c748a526a4.png">
+  <link rel="shortcut icon" type="image/x-icon" href="https://telegra.ph/file/22da4d29204c748a526a4.png">
   <link rel='stylesheet' href='https://cdn.plyr.io/3.6.2/plyr.css'>
   <link href="https://fonts.googleapis.com/css?family=Poppins|Quattrocento+Sans" rel="stylesheet"/>
   <script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
@@ -309,7 +311,7 @@ html {
     <source type="application/x-mpegURL" src="${hls}"> </video>
 </body>
 <script>
-  setTimeout(videovisible, 3000)
+  setTimeout(videovisible, 4000)
 
 function videovisible() {
     document.getElementById('loading').style.display = 'none'
