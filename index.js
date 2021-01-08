@@ -159,7 +159,7 @@ Stream
                 image: mainFetch.image_url.replace("270x152", "1170x658"),
                 hls: `https://zee5vodnd.akamaized.net${mainFetch.hls[0].replace("drm", "hls")}${await videotoken()}`
             })
-            return new Response(await template(pass.title, pass.image, pass.hls), {
+            return new Response(await template(pass.title, pass.image, pass.hls, pass.vtt_thumbnail_url), {
                 status: 200,
                 headers: ({
                     "Content-Type": "text/html",
@@ -184,7 +184,7 @@ async function token() {
     return tokenfetch.token
 }
 
-async function template(title, thumb, hls) {
+async function template(title, thumb, hls, vtt_thumbnail_url) {
     return `<html>
 
 <head>
@@ -193,9 +193,9 @@ async function template(title, thumb, hls) {
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <link rel="shortcut icon" type="image/x-icon" href="https://telegra.ph/file/22da4d29204c748a526a4.png">
-  <link rel='stylesheet' href='https://cdn.plyr.io/3.6.2/plyr.css'>
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
   <link href="https://fonts.googleapis.com/css?family=Poppins|Quattrocento+Sans" rel="stylesheet"/>
-  <script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
+  <script src="https://cdn.plyr.io/3.6.3/plyr.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
 </head>
 <style>
@@ -308,7 +308,8 @@ html {
 </div>
 
   <video controls crossorigin poster="${thumb}" playsinline>
-    <source type="application/x-mpegURL" src="${hls}"> </video>
+    <source type="application/x-mpegURL" src="${hls}"> 
+    <track kind="captions" label="EN Sub." src="${vtt_thumbnail_url}" srclang="en" default /> </video>
 </body>
 <script>
   setTimeout(videovisible, 4000)
