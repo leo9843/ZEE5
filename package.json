@@ -1,8 +1,10 @@
 {
-    "name": "ZEE5 Streamer",
-    "version": "2.0.0",
+    "name": "ZEE5 Online Streamer",
+    "version": "2.0.1",
     "description": "The Online ZEE5 Player and Downloader with Premium and Free Content With All Facality and Customizable Player ",
     "main": "index.js",
+    "root": "public",
+    "error_page": "index.js",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/avipatilpro/ZEE5.git"
@@ -22,5 +24,5 @@
     "bugs": {
         "url": "https://github.com/avipatilpro/ZEE5/issues"
     },
-    "homepage": "https://github.com/avipatilpro/ZEE5#readme"
+    "homepage": "https://github.com/avipatilpro/ZEE5"
 }
