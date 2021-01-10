@@ -21,7 +21,7 @@ async function handleRequest(request) {
     <meta name="copyright" content="This Created by Avishkar Patil">
     <meta name="robots" content="all" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="https://chatecrew.live/swarup/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.zee5.com/images/ZEE5_logo.png">
 
   <title>Avi Patil | ZEE5 Online Player and Downloader !!</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -50,8 +50,7 @@ body{ background-color:#202020;}
 <button  class="button" type="submit" value="" title="Stream And Enjoy !!">
 Stream
 </button>
-<br><br><br><br>
-<p style="color:blue; text-align:center;font-family: 'Corben', cursive;">Use This Pattern 👇 <br><code style="color:white;">z5.movhdapp.ml/ZEE5_VIDEO_ID</code><br><code style="color:white;">z5.movhdapp.ml/?url=ZEE5_VIDEO_URL</code></p>
+<br><br><br><br><br><br><br><br><br>
 
 
 
