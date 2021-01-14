@@ -99,7 +99,7 @@ Stream
     <meta name="copyright" content="This Created by Avishkar Patil">
     <meta name="robots" content="all" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="https://chatecrew.live/swarup/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.zee5.com/images/ZEE5_logo.png">
 
   <title>Not Found | Avi Patil | ZEE5 Online Player and Downloader !!</title>
   <link rel="stylesheet" href="https://avipatilpro.github.io/host/z5style.css">
@@ -191,7 +191,7 @@ async function template(title, thumb, hls, vtt_thumbnail_url) {
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <link rel="shortcut icon" type="image/x-icon" href="https://telegra.ph/file/22da4d29204c748a526a4.png">
+  <link rel="shortcut icon" type="image/x-icon" href="https://www.zee5.com/images/ZEE5_logo.png">
   <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
   <link href="https://fonts.googleapis.com/css?family=Poppins|Quattrocento+Sans" rel="stylesheet"/>
   <script src="https://cdn.plyr.io/3.6.3/plyr.js"></script>
@@ -296,13 +296,14 @@ html {
 <body>
   <div id="loading" class="loading">
 <div class="loading-text">
-    <span class="loading-text-words">L</span>
-    <span class="loading-text-words">O</span>
     <span class="loading-text-words">A</span>
-    <span class="loading-text-words">D</span>
+    <span class="loading-text-words">V</span>
     <span class="loading-text-words">I</span>
-    <span class="loading-text-words">N</span>
-    <span class="loading-text-words">G</span>
+    <span class="loading-text-words">S</span>
+    <span class="loading-text-words">H</span>
+    <span class="loading-text-words">K</span>
+    <span class="loading-text-words">A</span>
+    <span class="loading-text-words">R</span>
 </div>
 </div>
 
