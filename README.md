@@ -26,7 +26,7 @@
 
 </h4><br>
 
----
+
   
   
 <h3>🔐 Method 2 :</h3>
@@ -40,7 +40,13 @@
 
 <br><br>
 
+---
 
+<h2> Telegram Bot based on this </h2>
+<h4>
+Go to <a href="https://telegram.me/zee5x_bot">ZEE5 Streaming Bot</a> OR search @zee5x_bot in telegram.
+</h4>
+---
 
 <h2> Where To Host : </h2>
 
