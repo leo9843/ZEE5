@@ -1,3 +1,6 @@
+// © Avishkar Patil | Befor Editing Star This Repo
+// I WILL KILL YOU ^_^
+
 addEventListener('fetch', event => {
     event.respondWith(handleRequest(event.request))
 })
@@ -85,7 +88,7 @@ Stream
         })
         var mainFetch = await mainFetch.json()
 
-
+// © Avishkar Patil
         // Error 400 Code 
 
         const erhtml = `<!DOCTYPE html>
@@ -182,6 +185,8 @@ async function token() {
     var tokenfetch = await tokenfetch.json()
     return tokenfetch.token
 }
+
+// © Avishkar Patil
 
 async function template(title, thumb, hls, vtt_thumbnail_url) {
     return `<html>
@@ -349,3 +354,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
 </html>`
 }
+
+// © Avishkar Patil
