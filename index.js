@@ -297,6 +297,18 @@ html {
         background: url('https://telegra.ph/file/22da4d29204c748a526a4.png') no-repeat;
         background-size: 35px auto, auto;
     }
+    
+        .plyr__video-wrapper::after {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 10;
+        content: '';
+        height: 35px;
+        width: 35px;
+        background: url('https://i.ibb.co/nRH5vb3/Zee5.png') no-repeat;
+        background-size: 35px auto, auto;
+    }
 
 </style>
 
