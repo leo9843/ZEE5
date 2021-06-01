@@ -14,7 +14,7 @@ async function handleRequest(request) {
     var videoQuery = new URL(request.url).searchParams.get('url')
 
    // Home Page Data and Input Box
-
+a
     const html = `<!DOCTYPE html>
     <html>
 <head>
@@ -55,9 +55,7 @@ body{ background-color:#202020;}
 <button  class="button" type="submit" value="" title="Stream And Enjoy !!">
 Stream
 </button>
-<br><br><br><br><br><br><br><br><br>
-
-
+<br><br><br><br><br><h3 style="text-align: center; color: #33ffd5; font-family: 'Balsamiq Sans', cursive; font-size: 15px;">If Unable To Play Premium Content Then Use</h3><a style="text-decoration: none; color: #036cff; font-family: 'Balsamiq Sans', cursive; font-size: 17px;" href="https://drm.zee5play.ml">ZEE5 DRM Player</a><br><br><br><br><br><br><br>
 
 <footer class="footer">
             <div class="container">
@@ -136,8 +134,7 @@ body{ background-color:#202020;}
 <button  class="button" type="submit" value="" title="Stream And Enjoy !!">
 Stream
 </button>
-<br><br><br><br>
-
+<br><br><br><br><br><h3 style="text-align: center; color: #33ffd5; font-family: 'Balsamiq Sans', cursive; font-size: 15px;">If Unable To Play Premium Content Then Use</h3><a style="text-decoration: none; color: #036cff; font-family: 'Balsamiq Sans', cursive; font-size: 17px;" href="https://drm.zee5play.ml">ZEE5 DRM Player</a><br><br><br><br><br><br><br>
 
 <footer class="footer">
             <div class="container">
@@ -306,7 +303,7 @@ html {
         content: '';
         height: 35px;
         width: 35px;
-        background: url('https://i.ibb.co/nRH5vb3/Zee5.png') no-repeat;
+        background: url('https://www.zee5.com/images/ZEE5_logo.svg') no-repeat;
         background-size: 35px auto, auto;
     }
 
